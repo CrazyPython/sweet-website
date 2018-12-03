@@ -1,4 +1,4 @@
-(function webpackUniversalModuleDefinition(root, factory) {
+﻿(function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
 	else if(typeof define === 'function' && define.amd)
@@ -6372,7 +6372,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	const assignOps = ['=', '+=', '-=', '*=', '/=', '%=', '<<=', '>>=', '>>>=', '&=', '|=', '^=', ','];
 
-	const binaryOps = ['+', '-', '*', '/', '%', '<<', '>>', '>>>', '&', '|', '^', '&&', '||', '?', ':', '===', '==', '>=', '<=', '<', '>', '!=', '!==', 'instanceof'];
+	const binaryOps = ['+', '-', '*', '/', '%', '<<', '>>','->' '>>>', '&', '|', '^', '&&', '||', '?', ':', '===', '==', '>=', '<=', '<', '>', '!=', '!==', 'instanceof'];
 
 	const unaryOps = ['++', '--', '~', '!', 'delete', 'void', 'typeof', 'yield', 'throw', 'new'];
 
@@ -25077,12 +25077,12 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  var CompoundAssignmentOperator = {
 	    typeName: "Enum",
-	    values: ["+=", "-=", "*=", "/=", "%=", "<<=", ">>=", ">>>=", "|=", "^=", "&="]
+	    values: ["+=", "-=", "*=", "/=", "%=", "<<=", ">>=", ">>>=", "|=", "^=", "&=", '->']
 	  };
 
 	  var BinaryOperator = {
 	    typeName: "Enum",
-	    values: ["==", "!=", "===", "!==", "<", "<=", ">", ">=", "in", "instanceof", "<<", ">>", ">>>", "+", "-", "*", "/", "%", ",", "||", "&&", "|", "^", "&"]
+	    values: ["==", "!=", "===", "!==", "<", "<=", ">", ">=", "in", "instanceof", "<<", ">>", ">>>", "+", "-", "*", "/", "%", ",", "||", "&&", "|", "^", "&", '->']
 	  };
 
 	  var UnaryOperator = {
